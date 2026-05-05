@@ -8,15 +8,19 @@ import { ROUTES } from './constants/routes';
 const Home = () => <div className="main-content"><h2>Home Page</h2><p>Member 2 will build this.</p></div>;
 const Products = () => <div className="main-content"><h2>Products</h2><p>Member 2 will build this.</p></div>;
 const ProductDetails = () => <div className="main-content"><h2>Product Details</h2><p>Member 2 will build this.</p></div>;
-const Cart = () => <div className="main-content"><h2>Cart</h2><p>Member 3 will build this.</p></div>;
 const Wishlist = () => <div className="main-content"><h2>Wishlist</h2><p>Member 2 will build this.</p></div>;
-const Checkout = () => <div className="main-content"><h2>Checkout</h2><p>Member 3 will build this.</p></div>;
-const OrderTracking = () => <div className="main-content"><h2>Order Tracking</h2><p>Member 3 will build this.</p></div>;
-const SellerDashboard = () => <div className="main-content"><h2>Seller Dashboard</h2><p>Member 3 will build this.</p></div>;
-const ManageProducts = () => <div className="main-content"><h2>Manage Products</h2><p>Member 3 will build this.</p></div>;
-const AddProduct = () => <div className="main-content"><h2>Add Product</h2><p>Member 3 will build this.</p></div>;
-const EditProduct = () => <div className="main-content"><h2>Edit Product</h2><p>Member 3 will build this.</p></div>;
-const ManageOrders = () => <div className="main-content"><h2>Manage Orders</h2><p>Member 3 will build this.</p></div>;
+
+// my pages (member 3)
+import Cart from './pages/customer/Cart';
+import Checkout from './pages/customer/Checkout';
+import OrderTracking from './pages/customer/OrderTracking';
+
+
+import SellerDashboard from './pages/seller/SellerDashboard';
+import ManageProducts from './pages/seller/ManageProducts';
+import AddProduct from './pages/seller/AddProduct';
+import EditProduct from './pages/seller/EditProduct';
+import ManageOrders from './pages/seller/ManageOrders';
 
 function App() {
   return (
