@@ -4,11 +4,11 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { ROUTES } from './constants/routes';
 
-// Placeholder Components for teammates to fill in
-const Home = () => <div className="main-content"><h2>Home Page</h2><p>Member 2 will build this.</p></div>;
-const Products = () => <div className="main-content"><h2>Products</h2><p>Member 2 will build this.</p></div>;
-const ProductDetails = () => <div className="main-content"><h2>Product Details</h2><p>Member 2 will build this.</p></div>;
-const Wishlist = () => <div className="main-content"><h2>Wishlist</h2><p>Member 2 will build this.</p></div>;
+// Member 2 pages (Customer Storefront)
+import Home from './pages/customer/Home';
+import Products from './pages/customer/Products';
+import ProductDetails from './pages/customer/ProductDetails';
+import Wishlist from './pages/customer/Wishlist';
 
 // my pages (member 3)
 import Cart from './pages/customer/Cart';
